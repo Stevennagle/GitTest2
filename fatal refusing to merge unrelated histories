@@ -1,0 +1,49 @@
+JOhn SMith@BorrgMainFrame MINGW64 ~/Desktop/GitTest2 (master)
+$ git pull origin master
+From https://github.com/Stevennagle/GitTest2
+ * branch            master     -> FETCH_HEAD
+
+fatal: refusing to merge unrelated histories    ******************************
+
+JOhn SMith@BorrgMainFrame MINGW64 ~/Desktop/GitTest2 (master)
+
+$ git pull origin master --allow-unrelated-histories     <<<<<------------------------
+
+
+From https://github.com/Stevennagle/GitTest2
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ README.md | 4 ++++
+ 1 file changed, 4 insertions(+)
+ create mode 100644 README.md
+
+JOhn SMith@BorrgMainFrame MINGW64 ~/Desktop/GitTest2 (master)
+$ git push origin master
+
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (23/23), 1.87 KiB | 959.00 KiB/s, done.
+Total 23 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/Stevennagle/GitTest2.git
+   8282245..2402949  master -> master
+
+JOhn SMith@BorrgMainFrame MINGW64 ~/Desktop/GitTest2 (master)
+$
+
+JOhn SMith@BorrgMainFrame MINGW64 ~/Desktop/GitTest2 (master)
+$
+
+
+
+
+
+
+
+
+
+
+
+
